@@ -1,0 +1,78 @@
+
+#logo{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 35px;
+    height: 35px;
+}
+#contact{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    text-decoration: none;
+    margin: 8px;
+    padding: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #3498DB;
+    color: #3498DB;
+    border-radius: 10px;
+}
+
+#contact:hover{
+    background-color: #3ba7ee;
+    color: white;
+}
+
+#search{
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    text-align: center;
+    color: #3498DB;
+    margin: auto;
+}
+
+.search-box form{
+    height: 50px;
+}
+
+.search-box input{
+    position: relative;
+    width: 550px;
+    height: 40px;
+    border-style: solid;
+    border-color: #3498DB;
+    margin: 10px;
+    left: 3%;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.search-box button{
+    position: relative;
+    background: none;
+    right: 0;
+    border: none;
+    left: -50px;
+    top:10px;
+    transform: rotateY(180deg);
+}
+
+.socialSiteIcons{
+    position: absolute;
+    left: 47%;
+    bottom: 10%;
+}
+
+.socialSiteIcons img{
+    margin: 5px;
+    size: 80%;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+
